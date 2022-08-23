@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<IFX xmlns="lpx.com/transactionWrapper" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SONRQ>
+    <SONTYPE>Import_RetailLead</SONTYPE>
+    <DTCLIENT>2004-08-16T20:09:58.283125-06:00</DTCLIENT>
+    <CUSTLANGPREF>
+      <LANGUAGE>ENU</LANGUAGE>
+    </CUSTLANGPREF>
+    <CLIENTAPP>
+      <ORG>Lion, Inc</ORG>
+      <NAME>RWS</NAME>
+      <APPVER>2.2.02</APPVER>
+    </CLIENTAPP>
+  </SONRQ>
+  <LPXRQ>
+    <RETAILLEAD xmlns="lpx.com/leads/4.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <BROKER>
+        <USERGUID>F59314FF931B7802B0AD4A5FAA709A8A</USERGUID>
+      </BROKER>
+      <LOAN>
+        <APPLICATIONTYPEID>14</APPLICATIONTYPEID>
+        <PROGRAMGROUPID>1</PROGRAMGROUPID>
+        <LOANAMOUNT>150000</LOANAMOUNT>
+        <LTV>0</LTV>
+        <INTERESTRATE>0.06</INTERESTRATE>
+        <BORROWERS>
+          <BORROWER>
+            <BORROWERTYPEID>1</BORROWERTYPEID>
+            <PRIMARYBORROWER>Y</PRIMARYBORROWER>
+            <FIRSTNAME>test</FIRSTNAME>
+            <LASTNAME>test</LASTNAME>
+            <SSN>0</SSN>
+            <SELFEMPLOYED>N</SELFEMPLOYED>
+            <MONTHSATEMPLOYER>0</MONTHSATEMPLOYER>
+            <CREDITSCORE>0</CREDITSCORE>
+            <MAILINGADDRESS>
+              <ADDRESS1>test</ADDRESS1>
+              <ADDRESS2 />
+              <CITY>DENVER</CITY>
+              <STATE>CO</STATE>
+              <ZIPCODE>80222</ZIPCODE>
+            </MAILINGADDRESS>
+            <CONTACTS>
+              <CONTACT>
+                <INFOTYPEID>OfficePhone</INFOTYPEID>
+                <INFO>5555555555</INFO>
+                <BESTCONTACTMETHOD>Y</BESTCONTACTMETHOD>
+                <TIMETOCONTACT>Any Time</TIMETOCONTACT>
+              </CONTACT>
+              <CONTACT>
+                <INFOTYPEID>HomePhone</INFOTYPEID>
+                <INFO>5555555555</INFO>
+                <BESTCONTACTMETHOD>N</BESTCONTACTMETHOD>
+                <TIMETOCONTACT>Any Time</TIMETOCONTACT>
+              </CONTACT>
+              <CONTACT>
+                <INFOTYPEID>OfficeFax</INFOTYPEID>
+                <INFO />
+                <BESTCONTACTMETHOD>N</BESTCONTACTMETHOD>
+                <TIMETOCONTACT>Any Time</TIMETOCONTACT>
+              </CONTACT>
+            </CONTACTS>
+          </BORROWER>
+          <BORROWER>
+            <BORROWERTYPEID>2</BORROWERTYPEID>
+            <PRIMARYBORROWER>N</PRIMARYBORROWER>
+            <FIRSTNAME />
+            <LASTNAME />
+            <SSN>0</SSN>
+            <SELFEMPLOYED>N</SELFEMPLOYED>
+            <MONTHSATEMPLOYER>0</MONTHSATEMPLOYER>
+            <CREDITSCORE>0</CREDITSCORE>
+            <MAILINGADDRESS>
+              <ADDRESS1>test</ADDRESS1>
+              <ADDRESS2 />
+              <CITY>DENVER</CITY>
+              <STATE>CO</STATE>
+              <ZIPCODE>80222</ZIPCODE>
+            </MAILINGADDRESS>
+            <CONTACTS>
+              <CONTACT>
+                <INFOTYPEID>OfficePhone</INFOTYPEID>
+                <INFO>5555555555</INFO>
+                <BESTCONTACTMETHOD>Y</BESTCONTACTMETHOD>
+                <TIMETOCONTACT>Any Time</TIMETOCONTACT>
+              </CONTACT>
+              <CONTACT>
+                <INFOTYPEID>HomePhone</INFOTYPEID>
+                <INFO>5555555555</INFO>
+                <BESTCONTACTMETHOD>N</BESTCONTACTMETHOD>
+                <TIMETOCONTACT>Any Time</TIMETOCONTACT>
+              </CONTACT>
+              <CONTACT>
+                <INFOTYPEID>OfficeFax</INFOTYPEID>
+                <INFO />
+                <BESTCONTACTMETHOD>N</BESTCONTACTMETHOD>
+                <TIMETOCONTACT>Any Time</TIMETOCONTACT>
+              </CONTACT>
+            </CONTACTS>
+          </BORROWER>
+        </BORROWERS>
+        <SUBJECTPROPERTY>
+          <APPRAISEDVALUE>200000</APPRAISEDVALUE>
+          <HAZARDINSURANCE>0</HAZARDINSURANCE>
+          <TAXES>0</TAXES>
+        </SUBJECTPROPERTY>
+      </LOAN>
+    </RETAILLEAD>
+  </LPXRQ>
+</IFX>

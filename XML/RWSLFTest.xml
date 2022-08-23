@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<IFX xmlns="lpx.com/transactionWrapper" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <SONRQ>
+    <SONTYPE>Import_LFLead</SONTYPE>
+    <DTCLIENT>2004-08-19T18:56:03.931562-06:00</DTCLIENT>
+    <CUSTLANGPREF>
+      <LANGUAGE>ENU</LANGUAGE>
+    </CUSTLANGPREF>
+    <CLIENTAPP>
+      <ORG>Lion, Inc</ORG>
+      <NAME>RWS</NAME>
+      <APPVER>2.2.01</APPVER>
+    </CLIENTAPP>
+  </SONRQ>
+  <LPXRQ>
+    <LFLEAD xmlns="lpx.com/leads/4.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <BROKERDATA>
+        <TRNUID>vxk25fuqoeooesvmg0xbyjfq</TRNUID>
+        <COMPANYNAME>Republic Mortgage - Marcae Lucich</COMPANYNAME>
+        <MIDDLENAME />
+        <FIRSTNAME>Marcae</FIRSTNAME>
+        <LASTNAME>Lucich</LASTNAME>
+        <EMAIL>mlucich@republicloans.com</EMAIL>
+        <PHONE1>2085859446</PHONE1>
+        <EXT1 />
+        <PHONE2 />
+        <EXT2 />
+        <PHONE3 />
+        <EXT3 />
+        <FAX>2085859447</FAX>
+        <CONTENTMGMTID>313230</CONTENTMGMTID>
+        <HOMEPAGEURL>http://republic.mortgage101.com/templateroot/index.asp?PVLID=11374</HOMEPAGEURL>
+        <URLHEADER>&lt;LINK rel="stylesheet" TYPE="text/css" href="http://republic.mortgage101.com/templateroot/css/Global.css"&gt;&lt;LINK rel="stylesheet" TYPE="text/css" href="http://republic.mortgage101.com/templateroot/css/Mtg101.css"&gt;&lt;LINK rel="stylesheet" TYPE="text/css" href="http://republic.mortgage101.com/templateroot/css/DynamicStyles.aspx?pvlid=11374"&gt;&lt;LINK rel="stylesheet" TYPE="text/css" href="localhosthttp://republic.mortgage101.com/templateroot/css/Template25.css"&gt;&lt;link rel="stylesheet" type="text/css" href="http://republic.mortgage101.com/templateroot/css/Template25.css"&gt;&lt;link rel="stylesheet" type="text/css" href="http://republic.mortgage101.com/templateroot/css/DynamicStyles.aspx"&gt;&lt;table width="760" border="0" cellspacing="0" cellpadding="0"&gt;	&lt;tr&gt;		&lt;td&gt;&lt;a id="_ctl0_URLLink1" href="http://republic.mortgage101.com/templateroot/index.asp?PVLID=11374?PVLID=11374"&gt;&lt;img src="http://republic.mortgage101.com/templateroot/images/Template25/LOlogo.gif" border="0" /&gt;&lt;/a&gt;&lt;/td&gt;		&lt;td&gt;			&lt;table width="337" border="0" cellspacing="0" cellpadding="0"&gt;				&lt;tr&gt;					&lt;td background="http://republic.mortgage101.com/templateroot/images/Template25/LOlink_back.gif"&gt;						&lt;table width="100%" border="0" cellspacing="0" cellpadding="0"&gt;							&lt;tr&gt;								&lt;td&gt;&lt;img src="http://republic.mortgage101.com/templateroot/images/Template25/LOlink_curve.gif" width="9" height="19" align="absMiddle" border="0"&gt;&lt;/td&gt;								&lt;td align="center" class="lineright"&gt;&lt;a id="_ctl0_Hyperlink1" class="header" href="http://republic.mortgage101.com/templateroot/Index.asp?PVLID=11374"&gt;About Me&lt;/a&gt;&lt;/td&gt;								&lt;td align="center" class="links"&gt;&lt;a id="_ctl0_Hyperlink2" class="header" href="http://republic.mortgage101.com/templateroot/LeadForms/Contact.asp?PVLID=11374"&gt;Contact Me&lt;/a&gt;&lt;/td&gt;								&lt;td align="center" class="links"&gt;&lt;a id="_ctl0_Hyperlink3" class="header" href="http://republic.lionchoicedev.com?PVLID=11374"&gt;Corporate Site&lt;/a&gt;&lt;/td&gt;								&lt;td align="center" class="lineleft"&gt;&lt;a id="_ctl0_Hyperlink4" class="header" href="http://republic.mortgage101.com/templateroot/index.asp?PVLID=11374"&gt;Home&lt;/a&gt;&lt;/td&gt;							&lt;/tr&gt;						&lt;/table&gt;					&lt;/td&gt;				&lt;/tr&gt;				&lt;tr&gt;					&lt;td background="http://republic.mortgage101.com/templateroot/images/Template25/LOaddressBack.gif" height="98" align="right"&gt;						&lt;table border="0" cellspacing="0" cellpadding="0"&gt;							&lt;tr&gt;								&lt;td valign="bottom" align="right" class="padright"&gt;									&lt;span id="_ctl0_PhoneAndFax"&gt;Phone: &amp;nbsp;(208) 859-9446&lt;br&gt;Fax: &amp;nbsp;(208) 859-9447&lt;br&gt;&lt;a href=http://republic.mortgage101.com/templateroot/LeadForms/Contact.asp?PVLID=11374 class=header&gt;Contact Us&lt;/a&gt;&lt;/span&gt;								&lt;/td&gt;							&lt;/tr&gt;						&lt;/table&gt;					&lt;/td&gt;				&lt;/tr&gt;			&lt;/table&gt;		&lt;/td&gt;	&lt;/tr&gt;	&lt;tr bgcolor="#000066"&gt;		&lt;td colspan="2"&gt;&lt;a id="_ctl0_Hyperlink5" class="header" href="http://republic.mortgage101.com/templateroot/index.asp?PVLID=11374?PVLID=11374"&gt;&lt;img src="http://republic.mortgage101.com/templateroot/images/Template25/LOunder_logo.gif" alt="Contact Me" border="0" /&gt;&lt;/a&gt;&lt;/td&gt;	&lt;/tr&gt;&lt;/table&gt;</URLHEADER>
+        <URLFOOTER>&lt;table cellSpacing="0" cellPadding="0" width="760" border="0" dwcopytype="CopyTableRow"&gt;	&lt;TBODY&gt;		&lt;tr bgColor="#ffffff"&gt;			&lt;td background="http://republic.mortgage101.com/templateroot/images/Template25/redLine.gif" colSpan="2"&gt;&lt;IMG height="9" alt="home loans" src="http://republic.mortgage101.com/templateroot/images/Template25/redLine.gif" width="2"&gt;&lt;/td&gt;		&lt;/tr&gt;		&lt;tr bgColor="#ffffff"&gt;			&lt;td colSpan="2"&gt;				&lt;table cellSpacing="5" cellPadding="0" width="100%" border="0"&gt;					&lt;TBODY&gt;						&lt;tr&gt;							&lt;td&gt;								&lt;table cellSpacing="0" cellPadding="0" width="100%" border="0"&gt;									&lt;tr&gt;										&lt;td class="box" width="247" background="http://republic.mortgage101.com/templateroot/images/Template25/houseBack.jpg"											height="153"&gt;											&lt;table height="100%" cellSpacing="0" cellPadding="0" width="100%" border="0"&gt;												&lt;tr&gt;													&lt;td vAlign="top" height="27"&gt;&lt;a id="_ctl3_ApplyLink4" class="header" href="http://republic.mortgage101.com/templateroot/Purchase.asp?PVLID=11374"&gt;&lt;img src="http://republic.mortgage101.com/templateroot/images/Template25/purchase.gif" width="129" height="27" border="0"																alt="purchase"&gt;&lt;/a&gt;&lt;/td&gt;												&lt;/tr&gt;												&lt;tr&gt;													&lt;td class="footer"&gt;The decision to purchase a home is one of the most important 														you'll make. Let us help. Clicking below will take you to the information and 														tools that will let you make the best decision.													&lt;/td&gt;												&lt;/tr&gt;												&lt;tr&gt;													&lt;td class="padr" align="right"&gt;&lt;a id="_ctl3_ApplyLink3" class="header" href="http://republic.mortgage101.com/templateroot/Purchase.asp?PVLID=11374"&gt;&lt;img src="http://republic.mortgage101.com/templateroot/images/Template25/readMore.gif" width="88" height="17" border="0"																alt="read more"&gt;&lt;/a&gt;&lt;/td&gt;												&lt;/tr&gt;											&lt;/table&gt;										&lt;/td&gt;									&lt;/tr&gt;								&lt;/table&gt;							&lt;/td&gt;							&lt;td&gt;								&lt;table cellSpacing="0" cellPadding="0" width="100%" border="0"&gt;									&lt;TBODY&gt;										&lt;tr&gt;											&lt;td class="box" vAlign="top" width="247" background="http://republic.mortgage101.com/templateroot/images/Template25/coupleBack.jpg"												height="153"&gt;												&lt;table height="100%" cellSpacing="0" cellPadding="0" width="100%" border="0"&gt;													&lt;TBODY&gt;														&lt;tr&gt;															&lt;td vAlign="top" height="27"&gt;&lt;a id="_ctl3_RefinanceLink" class="header" href="http://republic.mortgage101.com/templateroot/Refinance.asp?PVLID=11374"&gt;&lt;img src="http://republic.mortgage101.com/templateroot/images/Template25/refinance.gif" width="129" height="27" border="0"																		alt="refinance"&gt;&lt;/a&gt;&lt;/td&gt;														&lt;/tr&gt;														&lt;tr&gt;															&lt;td class="footer"&gt;Do you want to lower your mortgage payment? Buy a car or a boat? 																Need cash for school or a vacation? Let us help you through the refinance 																process by clicking below.&lt;/td&gt;														&lt;/tr&gt;														&lt;tr&gt;															&lt;td align="right" class="padr"&gt;&lt;a id="_ctl3_RefinanceLink2" class="header" href="http://republic.mortgage101.com/templateroot/Refinance.asp?PVLID=11374"&gt;&lt;img src="http://republic.mortgage101.com/templateroot/images/Template25/readMore.gif" width="88" height="17" border="0"																		alt="read more"&gt;&lt;/a&gt;&lt;/td&gt;														&lt;/tr&gt;												&lt;/table&gt;											&lt;/td&gt;										&lt;/tr&gt;								&lt;/table&gt;							&lt;/td&gt;							&lt;td&gt;								&lt;table width="100%" border="0" cellspacing="0" cellpadding="0"&gt;									&lt;tr&gt;										&lt;td background="http://republic.mortgage101.com/templateroot/images/Template25/lapTop.jpg" width="247" height="153"											valign="top" class="box"&gt;											&lt;table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%"&gt;												&lt;tr&gt;													&lt;td valign="top" height="27"&gt;&lt;a id="_ctl3_ExploreLink1" class="header" href="http://republic.mortgage101.com/templateroot/Explore.asp?PVLID=11374"&gt;&lt;img src="http://republic.mortgage101.com/templateroot/images/Template25/explore.gif" width="129" height="27" alt="explore"																border="0"&gt;&lt;/a&gt;&lt;/td&gt;												&lt;/tr&gt;												&lt;tr&gt;													&lt;td class="footer"&gt;We can help you find the answers to your mortgage questions with 														hundreds of informative documents and interactive tools.&lt;/td&gt;												&lt;/tr&gt;												&lt;tr&gt;													&lt;td align="right" class="padr"&gt;&lt;a id="_ctl3_ExploreLink2" class="header" href="http://republic.mortgage101.com/templateroot/Explore.asp?PVLID=11374"&gt;&lt;img src="http://republic.mortgage101.com/templateroot/images/Template25/readMore.gif" width="88" height="17" border="0"																alt="read more"&gt;&lt;/a&gt;&lt;/td&gt;												&lt;/tr&gt;											&lt;/table&gt;										&lt;/td&gt;									&lt;/tr&gt;								&lt;/table&gt;							&lt;/td&gt;						&lt;/tr&gt;				&lt;/table&gt;			&lt;/td&gt;		&lt;/tr&gt;		&lt;tr bgcolor="#ffffff" align="center"&gt;			&lt;td colspan="2" class="sm"&gt;				&lt;a id="_ctl3_ApplyLink" class="header" href="http://republic.mortgage101.com/templateroot/Apply.asp?PVLID=11374"&gt;Apply &lt;/a&gt;				|				&lt;a id="_ctl3_CalculatorsLink" class="header" href="http://republic.mortgage101.com/templateroot/Calculators/Index.asp?PVLID=11374"&gt; Calculators &lt;/a&gt;				|				&lt;a id="_ctl3_ExploreLink" class="header" href="http://republic.mortgage101.com/templateroot/Explore.asp?PVLID=11374"&gt;Explore &lt;/a&gt;				|				&lt;a id="_ctl3_AboutLink" class="header" href="http://republic.mortgage101.com/templateroot/Index.asp?PVLID=11374"&gt;About Marcae &lt;/a&gt;				|				&lt;a id="_ctl3_CorporateLink" class="header" href="http://republic.lionchoicedev.com?PVLID=11374"&gt;Corporate Site&lt;/a&gt;				|				&lt;br&gt;				&lt;span id="_ctl3_FooterContactInfo"&gt;&lt;br&gt;9257 Foothill Road&amp;nbsp;, Middleton&amp;nbsp;, ID&amp;nbsp;83644&amp;nbsp;&lt;br&gt;Phone: &amp;nbsp;(208) 859-9446&lt;br&gt;Fax: &amp;nbsp;(208) 859-9447&lt;br&gt;&lt;a href=http://republic.mortgage101.com/templateroot/LeadForms/Contact.asp?PVLID=11374 class=header&gt;Contact Us&lt;/a&gt;&lt;br&gt;&lt;/span&gt;				&lt;script language="JavaScript"&gt;document.write('Copyright &amp;copy; ' +(new Date()).getFullYear());				&lt;/script&gt;				Republic Mortgage. All Rights Reserved.&lt;/td&gt;		&lt;/tr&gt;&lt;/table&gt;&lt;/asp:HyperLink&gt;</URLFOOTER>
+        <URLPRIVACYPOLICY />
+        <URLDOC />
+        <URLLOANSTATUS />
+        <RETURNURL />
+        <IMAGESURL />
+        <PLVID>7100</PLVID>
+        <USERGUID>F59314FF931B7802B0AD4A5FAA709A8A</USERGUID>
+        <SENDCONFIRMATIONEMAIL>N</SENDCONFIRMATIONEMAIL>
+      </BROKERDATA>
+      <CONSUMERDATA>
+        <SESSIONID>vxk25fuqoeooesvmg0xbyjfq</SESSIONID>
+        <PURCHASETYPE>Purchase</PURCHASETYPE>
+        <FIRSTNAME>test</FIRSTNAME>
+        <LASTNAME>test</LASTNAME>
+        <DAYPHONE>5555555555</DAYPHONE>
+        <EVENINGPHONE>5555555555</EVENINGPHONE>
+        <EMAIL>test@test.com</EMAIL>
+        <TOTALINCOME>0.00</TOTALINCOME>
+        <TOTALDEBT>0.00</TOTALDEBT>
+        <DOWNPAYMENTAMOUNT>50000</DOWNPAYMENTAMOUNT>
+        <LOANAMOUNT>150000</LOANAMOUNT>
+        <OCCUPANCYTYPE>PrimaryResidence</OCCUPANCYTYPE>
+        <MARITALSTATUS>NotProvided</MARITALSTATUS>
+        <NUMMONTHSATJOB>0</NUMMONTHSATJOB>
+      </CONSUMERDATA>
+      <PROPERTYDATA>
+        <PROPERTYTYPE>SingleFamily</PROPERTYTYPE>
+        <APPRAISEDVALUE>0.00</APPRAISEDVALUE>
+        <CITY>LONGMONT</CITY>
+        <STATE />
+        <ZIPCODE>00000</ZIPCODE>
+        <RENTPAYMENT>0.00</RENTPAYMENT>
+        <TAXES>0.00</TAXES>
+        <PAYMENTPI>0.00</PAYMENTPI>
+        <OTHERFINANCINGPI>0.00</OTHERFINANCINGPI>
+      </PROPERTYDATA>
+    </LFLEAD>
+  </LPXRQ>
+</IFX>

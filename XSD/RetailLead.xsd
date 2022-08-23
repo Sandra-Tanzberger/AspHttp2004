@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v5 rel. 4 U (http://www.xmlspy.com) by gmdev (Lion Inc.) -->
+<xs:schema targetNamespace="lpx.com/leads/4.0" xmlns:c="lpx.com/transactionWrapper" xmlns="lpx.com/leads/4.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="lpx.com/transactionWrapper" schemaLocation="TransactionWrapper.xsd"/>
+	<xs:element name="RETAILLEAD">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="BROKER">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="USERGUID" type="c:char38"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="LOAN">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="APPLICATIONTYPEID">
+								<xs:simpleType>
+									<xs:restriction base="c:num10">
+										<xs:enumeration value="12"/>
+										<xs:enumeration value="13"/>
+										<xs:enumeration value="14"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="PROGRAMGROUPID" type="c:num10" minOccurs="0"/>
+							<xs:element name="LOANTYPE" minOccurs="0">
+								<xs:simpleType>
+									<xs:restriction base="xs:NMTOKEN">
+										<xs:enumeration value="Conventional"/>
+										<xs:enumeration value="FHA"/>
+										<xs:enumeration value="VA"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="OCCUPANCYTYPE" minOccurs="0">
+								<xs:simpleType>
+									<xs:restriction base="xs:NMTOKEN">
+										<xs:enumeration value="Investor"/>
+										<xs:enumeration value="PrimaryResidence"/>
+										<xs:enumeration value="SecondHome"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="ESTIMATEDTIMEFRAME" type="c:char100" minOccurs="0"/>
+							<xs:element name="LOANAMOUNT" type="c:num15_7" minOccurs="0"/>
+							<xs:element name="LTV" type="c:num15_7" minOccurs="0"/>
+							<xs:element name="INTERESTRATE" type="c:num15_7" minOccurs="0"/>
+							<xs:element name="BORROWERS">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="BORROWER" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="BORROWERTYPEID">
+														<xs:simpleType>
+															<xs:restriction base="xs:NMTOKEN">
+																<xs:enumeration value="1"/>
+																<xs:enumeration value="2"/>
+															</xs:restriction>
+														</xs:simpleType>
+													</xs:element>
+													<xs:element name="PRIMARYBORROWER" type="c:YesNoType"/>
+													<xs:element name="FIRSTNAME" type="c:char50"/>
+													<xs:element name="LASTNAME" type="c:char50"/>
+													<xs:element name="SSN" type="c:char9" minOccurs="0"/>
+													<xs:element name="SELFEMPLOYED" type="c:YesNoType" minOccurs="0"/>
+													<xs:element name="MONTHSATEMPLOYER" type="c:num10" minOccurs="0"/>
+													<xs:element name="CREDITSCORE" type="c:num10" minOccurs="0"/>
+													<xs:element name="MAILINGADDRESS" minOccurs="0">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="ADDRESS1" type="c:char50"/>
+																<xs:element name="ADDRESS2" type="c:char50" minOccurs="0"/>
+																<xs:element name="CITY" type="c:char50"/>
+																<xs:element name="STATE" type="c:char2"/>
+																<xs:element name="ZIPCODE" type="c:PostalCodeType"/>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="CONTACTS">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="CONTACT" maxOccurs="unbounded">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="INFOTYPEID">
+																				<xs:simpleType>
+																					<xs:restriction base="xs:NMTOKEN">
+																						<xs:enumeration value="OfficePhone"/>
+																						<xs:enumeration value="OfficeEmail"/>
+																						<xs:enumeration value="OfficeCellular"/>
+																						<xs:enumeration value="OfficeFax"/>
+																						<xs:enumeration value="OfficePager"/>
+																						<xs:enumeration value="HomePhone"/>
+																						<xs:enumeration value="HomeEmail"/>
+																						<xs:enumeration value="HomeCellular"/>
+																						<xs:enumeration value="HomeFax"/>
+																						<xs:enumeration value="HomePager"/>
+																					</xs:restriction>
+																				</xs:simpleType>
+																			</xs:element>
+																			<xs:element name="INFO" type="c:char255"/>
+																			<xs:element name="BESTCONTACTMETHOD" type="c:YesNoType" minOccurs="0"/>
+																			<xs:element name="TIMETOCONTACT" type="c:char20" minOccurs="0"/>
+																		</xs:sequence>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="SUBJECTPROPERTY">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="ADDRESS1" type="c:char50" minOccurs="0"/>
+										<xs:element name="ADDRESS2" type="c:char50" minOccurs="0"/>
+										<xs:element name="CITY" type="c:char50" minOccurs="0"/>
+										<xs:element name="STATE" type="c:char2" minOccurs="0"/>
+										<xs:element name="ZIPCODE" type="c:PostalCodeType" minOccurs="0"/>
+										<xs:element name="PROPERTYTYPE" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:NMTOKEN">
+													<xs:enumeration value="SingleFamily"/>
+													<xs:enumeration value="Condominium"/>
+													<xs:enumeration value="Townhouse"/>
+													<xs:enumeration value="Cooperative"/>
+													<xs:enumeration value="TwoToFourUnitProperty"/>
+													<xs:enumeration value="MultifamilyMoreThanFourUnits"/>
+													<xs:enumeration value="ManufacturedMobileHome"/>
+													<xs:enumeration value="CommercialNonResidential"/>
+													<xs:enumeration value="MixedUseResidential"/>
+													<xs:enumeration value="Farm"/>
+													<xs:enumeration value="HomeAndBusinessCombined"/>
+													<xs:enumeration value="Land"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="APPRAISEDVALUE" type="c:num15_7" minOccurs="0"/>
+										<xs:element name="HAZARDINSURANCE" type="c:num15_7" minOccurs="0"/>
+										<xs:element name="TAXES" type="c:num15_7" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

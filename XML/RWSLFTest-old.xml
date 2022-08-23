@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<IFX xmlns="la:rwslfdatapass-schema" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <SONRQ>
+    <SONTYPE>Transaction</SONTYPE>
+    <DTCLIENT>2004-07-13T20:13:59.199520-06:00</DTCLIENT>
+    <CUSTLANGPREF>
+      <LANGUAGE>ENU</LANGUAGE>
+    </CUSTLANGPREF>
+    <CLIENTAPP>
+      <ORG>Lion, Inc</ORG>
+      <NAME>RWS</NAME>
+      <APPVER>2.2.01</APPVER>
+    </CLIENTAPP>
+  </SONRQ>
+  <MORTGAGESVCRQ>
+    <BROKERDATA>
+      <TRNUID>52l3fz5555n2uc55mrbdsnnb</TRNUID>
+      <COMPANYNAME>LION Denver</COMPANYNAME>
+      <MIDDLENAME />
+      <FIRSTNAME>Christopher</FIRSTNAME>
+      <LASTNAME>Abernathy1</LASTNAME>
+      <EMAIL>cabernat@lioninc.com</EMAIL>
+      <PHONE1>3034551800</PHONE1>
+      <EXT1>346</EXT1>
+      <PHONE2 />
+      <EXT2 />
+      <PHONE3 />
+      <EXT3 />
+      <FAX>3034554100</FAX>
+      <CONTENTMGMTID>sirabbaco9</CONTENTMGMTID>
+      <HOMEPAGEURL>http://alphanet.fdc.mortgage101.com/templateroot/index.asp?pvlid=6882</HOMEPAGEURL>
+      <URLHEADER />
+      <URLFOOTER />
+      <URLPRIVACYPOLICY />
+      <URLDOC>?</URLDOC>
+      <URLLOANSTATUS>?</URLLOANSTATUS>
+      <RETURNURL>?</RETURNURL>
+      <IMAGESURL>?</IMAGESURL>
+      <PLVID>7100</PLVID>
+      <USERGUID>DFD3A6E2F2186B12939AE7F49C1A99EE</USERGUID>
+      <SENDCONFIRMATIONEMAIL>0</SENDCONFIRMATIONEMAIL>
+    </BROKERDATA>
+    <CONSUMERDATA>
+      <SESSIONID>52l3fz5555n2uc55mrbdsnnb</SESSIONID>
+    </CONSUMERDATA>
+  </MORTGAGESVCRQ>
+</IFX>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v5 rel. 4 U (http://www.xmlspy.com) by gmdev (Lion Inc.) -->
+<xs:schema targetNamespace="lpx.com/leads/4.0" xmlns:c="lpx.com/transactionWrapper" xmlns="lpx.com/leads/4.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="lpx.com/transactionWrapper" schemaLocation="TransactionWrapper.xsd"/>
+	<xs:element name="LFLEAD">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="BROKERDATA">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="TRNUID" type="c:char38" minOccurs="0"/>
+							<xs:element name="COMPANYNAME" type="c:char255"/>
+							<xs:element name="MIDDLENAME" type="c:char20" minOccurs="0"/>
+							<xs:element name="FIRSTNAME" type="c:char30"/>
+							<xs:element name="LASTNAME" type="c:char30"/>
+							<xs:element name="EMAIL" type="c:char255"/>
+							<xs:element name="PHONE1" type="c:char13"/>
+							<xs:element name="EXT1" type="c:char6" minOccurs="0"/>
+							<xs:element name="PHONE2" type="c:char13" minOccurs="0"/>
+							<xs:element name="EXT2" type="c:char6" minOccurs="0"/>
+							<xs:element name="PHONE3" type="c:char13" minOccurs="0"/>
+							<xs:element name="EXT3" type="c:char6" minOccurs="0"/>
+							<xs:element name="FAX" type="c:char20" minOccurs="0"/>
+							<xs:element name="CONTENTMGMTID" type="c:char50" minOccurs="0"/>
+							<xs:element name="HOMEPAGEURL" type="xs:string"/>
+							<xs:element name="URLHEADER" type="xs:string"/>
+							<xs:element name="URLFOOTER" type="xs:string"/>
+							<xs:element name="URLPRIVACYPOLICY" type="xs:string" minOccurs="0"/>
+							<xs:element name="URLDOC" type="xs:string"/>
+							<xs:element name="URLLOANSTATUS" type="xs:string" minOccurs="0"/>
+							<xs:element name="RETURNURL" type="xs:string" minOccurs="0"/>
+							<xs:element name="IMAGESURL" type="xs:string" minOccurs="0"/>
+							<xs:element name="PLVID" type="c:num5"/>
+							<xs:element name="USERGUID" type="c:char38"/>
+							<xs:element name="SENDCONFIRMATIONEMAIL" type="c:YesNoType" default="N"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="CONSUMERDATA">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="SESSIONID" type="c:char50"/>
+							<xs:element name="PURCHASETYPE" minOccurs="0">
+								<xs:simpleType>
+									<xs:restriction base="xs:NMTOKEN">
+										<xs:enumeration value="ConstructionOnly"/>
+										<xs:enumeration value="ConstructionToPermanent"/>
+										<xs:enumeration value="Other"/>
+										<xs:enumeration value="Purchase"/>
+										<xs:enumeration value="Refinance"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="FIRSTNAME" type="c:char50" minOccurs="0"/>
+							<xs:element name="LASTNAME" type="c:char50" minOccurs="0"/>
+							<xs:element name="DAYPHONE" type="c:char15" minOccurs="0"/>
+							<xs:element name="EVENINGPHONE" type="c:char15" minOccurs="0"/>
+							<xs:element name="EMAIL" type="c:char255" minOccurs="0"/>
+							<xs:element name="TOTALINCOME" type="c:num15_7" minOccurs="0"/>
+							<xs:element name="TOTALDEBT" type="c:num15_7" minOccurs="0"/>
+							<xs:element name="DOWNPAYMENTAMOUNT" type="c:num15_7" minOccurs="0"/>
+							<xs:element name="LOANAMOUNT" type="c:num15_7" minOccurs="0"/>
+							<xs:element name="OCCUPANCYTYPE" minOccurs="0">
+								<xs:simpleType>
+									<xs:restriction base="xs:NMTOKEN">
+										<xs:enumeration value="Investor"/>
+										<xs:enumeration value="PrimaryResidence"/>
+										<xs:enumeration value="SecondHome"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="MARITALSTATUS" minOccurs="0">
+								<xs:simpleType>
+									<xs:restriction base="xs:NMTOKEN">
+										<xs:enumeration value="Married"/>
+										<xs:enumeration value="NotProvided"/>
+										<xs:enumeration value="Separated"/>
+										<xs:enumeration value="Unknown"/>
+										<xs:enumeration value="Unmarried"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="NUMMONTHSATJOB" type="c:num10" minOccurs="0"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PROPERTYDATA" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PROPERTYTYPE" minOccurs="0">
+								<xs:simpleType>
+									<xs:restriction base="xs:NMTOKEN">
+										<xs:enumeration value="SingleFamily"/>
+										<xs:enumeration value="Condominium"/>
+										<xs:enumeration value="Townhouse"/>
+										<xs:enumeration value="Cooperative"/>
+										<xs:enumeration value="TwoToFourUnitProperty"/>
+										<xs:enumeration value="MultifamilyMoreThanFourUnits"/>
+										<xs:enumeration value="ManufacturedMobileHome"/>
+										<xs:enumeration value="CommercialNonResidential"/>
+										<xs:enumeration value="MixedUseResidential"/>
+										<xs:enumeration value="Farm"/>
+										<xs:enumeration value="HomeAndBusinessCombined"/>
+										<xs:enumeration value="Land"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="APPRAISEDVALUE" type="c:num15_7" minOccurs="0"/>
+							<xs:element name="CITY" type="c:char50" minOccurs="0"/>
+							<xs:element name="STATE" type="c:char2" minOccurs="0"/>
+							<xs:element name="ZIPCODE" type="c:PostalCodeType" minOccurs="0"/>
+							<xs:element name="RENTPAYMENT" type="c:num15_7" minOccurs="0"/>
+							<xs:element name="TAXES" type="c:num15_7" minOccurs="0"/>
+							<xs:element name="PAYMENTPI" type="c:num15_7" minOccurs="0"/>
+							<xs:element name="OTHERFINANCINGPI" type="c:num15_7" minOccurs="0"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
